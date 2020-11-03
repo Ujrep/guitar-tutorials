@@ -4,7 +4,10 @@ import chords from './chords.png';
 
 const Application = () => {
   return (
-    <img src={chords} alt="chords" />
+    <div>
+      Chords
+      <img src={chords} alt="chords" />
+    </div>
   );
 };
 
