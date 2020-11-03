@@ -1,0 +1,24 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+:global {
+  #app {
+    height: 100%;
+    max-width: 1920px;
+    min-width: 920px;
+  }
+}
+
+body,
+button {
+  font-family: 'Nunito', sans-serif;
+}
+
+span[type="button"], a[type="button"] {
+  appearance: none;
+}

@@ -1,0 +1,60 @@
+{
+  "name": "guitar-tutorials",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --progress",
+    "start": "webpack-dev-server --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ujrep/kitesurfing-app.git"
+  },
+  "author": "Ujrep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ujrep/guitar-tutorials/issues"
+  },
+  "homepage": "https://github.com/Ujrep/guitar-tutorials#readme",
+  "dependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "7.7.4",
+    "@babel/preset-env": "7.7.6",
+    "@babel/preset-react": "7.7.4",
+    "@material-ui/core": "^4.8.3",
+    "axios": "^0.19.1",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "1.10.6",
+    "css-loader": "3.3.2",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "file-loader": "6.2.0",
+    "formik": "^2.1.4",
+    "html-webpack-plugin": "3.2.0",
+    "leaflet": "^1.6.0",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "0.8.2",
+    "moment": "^2.24.0",
+    "normalize.css": "8.0.1",
+    "postcss-loader": "3.0.0",
+    "postcss-nested": "4.2.1",
+    "postcss-preset-env": "6.7.0",
+    "react": "16.8.6",
+    "react-dom": "16.12.0",
+    "react-leaflet": "^2.6.1",
+    "react-ultimate-pagination": "^1.2.0",
+    "style-loader": "1.0.1",
+    "styled-components": "^4.4.1",
+    "url-loader": "4.1.1",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  }
+}
