@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ujrep/kitesurfing-app.git"
+    "url": "git+https://github.com/Ujrep/guitar-tutorials.git"
   },
   "author": "Ujrep",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ujrep/guitar-tutorials/issues"
   },
-  "homepage": "https://github.com/Ujrep/guitar-tutorials#readme",
+  "homepage": "https://ujrep.github.io/guitar-tutorials/",
   "dependencies": {
     "@babel/core": "7.3.4",
     "@babel/plugin-proposal-class-properties": "7.7.4",

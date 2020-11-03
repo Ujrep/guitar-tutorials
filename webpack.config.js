@@ -1,12 +1,9 @@
 /* eslint-disable global-require, import/no-dynamic-require */
 
 const path = require('path');
-// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
 const postcssNested = require('postcss-nested');
-
-// const isDevServer = !!process.argv.find((v) => v.includes('webpack-dev-server'));
 
 const config = {
   mode: 'development',
@@ -52,8 +49,8 @@ const config = {
 
   output: {
     publicPath: '/',
-    filename: 'bundle_[hash].js',
-    chunkFilename: '[name].[chunkhash].js',
+    filename: 'dist/bundle_[hash].js',
+    chunkFilename: 'dist/[name].[chunkhash].js',
   },
 };
 
